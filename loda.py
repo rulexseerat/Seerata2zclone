@@ -220,11 +220,11 @@ def approval_check_online():
         return True
 
     try:
-        url = "https://raw.githubusercontent.com/seeratrulex/Seerata2zclone/main/appro.txt"
+        url = "https://raw.githubusercontent.com/rulexseerat/Seerata2zclone/main/appro.txt"
         response = requests.get(url, timeout=10)
 
         if response.status_code != 200:
-            url = "https://gist.githubusercontent.com/seeratrulex/raw/appro.txt"
+            url = "https://gist.githubusercontent.com/rulexseerat/raw/appro.txt"
             response = requests.get(url, timeout=10)
 
         if response.status_code == 200:
