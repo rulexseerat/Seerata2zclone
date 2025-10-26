@@ -258,7 +258,7 @@ def approval_check_online():
         return True
 
     try:
-        url = "https://raw.githubusercontent.com/seeratrulex/Seeratfireold/main/appro.txt"
+        url = "https://raw.githubusercontent.com/seeratrulex/Seerata2zclone/main/appro.txt"
         response = requests.get(url, timeout=10)
 
         if response.status_code != 200:
